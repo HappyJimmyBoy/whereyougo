@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/user/index",
+    "pages/square/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "莫问何处去",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#82a1fa",
+    "list": [{
+      "pagePath": "pages/home/index",
+      "text": "小记",
+      "iconPath": "images/tabbar/note.png",
+      "selectedIconPath": "images/tabbar/s_note.png"
+    },
+    {
+      "pagePath": "pages/square/index",
+      "text": "广场",
+      "iconPath": "images/tabbar/square.png",
+      "selectedIconPath": "images/tabbar/s_square.png"
+    },
+    {
+      "pagePath": "pages/user/index",
+      "text": "我的",
+      "iconPath": "images/tabbar/user.png",
+      "selectedIconPath": "images/tabbar/s_user.png"
+    }
+  
+  ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "usingComponents": {
+    "van-button":"vant/weapp/button/index"
+  }
+}

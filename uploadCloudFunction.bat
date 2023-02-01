@@ -1,0 +1,1 @@
+"E:\software\weixin_dev\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-0g9ep8vmeb717d4a --n quickstartFunctions --r --project "G:\code\miniprogram\whereyougo" --report_first --report

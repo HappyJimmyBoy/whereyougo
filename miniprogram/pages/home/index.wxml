@@ -1,0 +1,2 @@
+<!--pages/home/index.wxml-->
+<van-button type="info" wx:for="{{40}}">annjiu</van-button>
